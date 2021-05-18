@@ -198,3 +198,11 @@ const changePosition = (array) => {
     console.log(orderArray);
   }
 };
+
+const multiply = (array, mul) =>{
+  let mulArr = [];
+  for (let i = 0; i < array.length; i++) {
+    mulArr.push(array[i]*mul);
+  }
+  return mulArr;
+}
